@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[hexo blog 搭建历程]]></title>
+    <url>%2F2019%2F07%2F30%2Fhexo-blog-%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[入门准备工具准备Node.js 终端 Node.js安装在官网Node.js下载，一键继续，安装成功后会出现安装路径，需要记下来。 终端命令本人在这里使用的是macos的系统，首先进入管理员身份，输入一下命令： %sudo su 系统会显示要你输入密码，此时输入密码，这个时候输入的密码是不可见的，最后按下回车键。 然后检查一遍安装的Node.js和它自带的npm的版本，输入一下命令： 核对版本没有问题后进入下一步环节。 进行换源处理，国内的镜像源都比较慢，跟换镜像下载源。 当出现如下信息代表安装完成： cnpm安装完同时也可以检查一下版本，看安装是否有错误： $cnpm -v 结果： 然后我们用cnpm来安装hexo框架 cnpm install -g hexo-cli 然后同样用命令来验证一下版本 $ hexo -v 基本环境已经安装完毕，接下来就是正式搭建的过程了。 正式搭建过程小提示1安装过程中应该常用 $ pwd命令来查看自己所在的目录，以免发生错误 正式过程先用$ pwd来检查自己所在的目录 然后我们新建一个文件夹,输入 mkdir blog 当然你要是想的话也可以自己手动建一个，无区别，blog为文件夹名称，名字可以任取 所以接下来的过程，在搭建博客的时候如果出现了什么错误，可以随时把blog文件夹干掉，重新来一遍（本人也是第一遍出现了问题，第二遍才成功😭） ——————————后更————————–]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[我的第一篇博客]]></title>
+    <url>%2F2019%2F07%2F30%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[第一章内容 测试]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F07%2F30%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
